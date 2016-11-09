@@ -28,6 +28,7 @@ public class MainGo extends Application implements Bank {
         primaryStage.setTitle("AirPort");
         primaryStage.setScene(new Scene(root, 500, 600));
         primaryStage.show();
+        primaryStage.setResizable(false);
 
         primaryStage.setOnCloseRequest(event -> {
          event.consume();
